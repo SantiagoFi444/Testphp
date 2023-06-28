@@ -1,0 +1,20 @@
+{
+    "name": "apolm01-022/sgav-app",
+    "description": "Sistema para la empresa de CampusLands",
+    "type": "projevct",
+    "authors": [
+        {
+            "name": "Santiago Figueroa",
+            "email": "sanalejofi10@gmail.com"
+        }
+    ],
+    "require": {
+        "intervention/image": "^2.7"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "./config",
+            "Models\\": "./models"
+        }
+    }
+}
